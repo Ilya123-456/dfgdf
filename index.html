@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТСПК</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="img/logo.png" alt="ТСПК" class="logo-image">
+                <div class="logo-text">
+                    <h1><span>ТСПК</span></h1>
+                    <p>фестиваль ТСПК</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#about"><i class="fas fa-info-circle"></i> О фестивале</a>
+                <a href="#competitions"><i class="fas fa-briefcase"></i> Направления</a>
+                <a href="#contacts"><i class="fas fa-envelope"></i> Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop playsinline poster="Video/festival.mp4">
+                <source src="Video/festival.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content fade-in visible">
+                <div class="hero-tag">
+                    <i class="fas fa-star"></i> ТСПК 2026 <i class="fas fa-star"></i>
+                </div>
+                <h1 class="hero-title">Знакомство<br>с <span>профессией Писька</span></h1>
+                <p class="hero-text"><i class="fas fa-arrow-right"></i> <strong>8 направлений</strong> <i class="fas fa-arrow-left"></i> где каждый может попробовать себя в деле</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-tag fade-in"><i class="fas fa-star"></i> О фестивале <i class="fas fa-star"></i></div>
+            <div class="about-header">
+                <h2 class="fade-in-left"><i class="fas fa-rocket"></i> Пространство <span>профессиональных</span> проб</h2>
+                <div class="about-desc fade-in-right">
+                    <i class="fas fa-quote-right"></i> В тспк всегда помогут и не бросят в беде.                </div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card fade-in delay-1">
+                    <div class="about-card-icon"><i class="fas fa-users"></i></div>
+                    <h3><i class="fas fa-check-circle"></i> Индивидуальный подход</h3>
+                    <p>С каждым участником работает наставник</p>
+                    <div class="about-card-meta"><i class="fas fa-user-check"></i> до 3 человек</div>
+                </div>
+                <div class="about-card fade-in delay-2">
+                    <div class="about-card-icon"><i class="fas fa-tools"></i></div>
+                    <h3><i class="fas fa-check-circle"></i> Настоящее оборудование</h3>
+                    <p>Всё по-настоящему, как в профессии</p>
+                    <div class="about-card-meta"><i class="fas fa-cog"></i> 10+ аудиторей</div>
+                </div>
+                <div class="about-card fade-in delay-3">
+                    <div class="about-card-icon"><i class="fas fa-heart"></i></div>
+                    <h3><i class="fas fa-check-circle"></i> Поддержка тьюторов</h3>
+                    <p>Сопровождение и спецоборудование</p>
+                    <div class="about-card-meta"><i class="fas fa-hands-helping"></i> по запросу</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="professions" id="competitions">
+        <div class="container">
+            <div class="section-tag fade-in"><i class="fas fa-star"></i> Направления <i class="fas fa-star"></i></div>
+            <h2 class="section-title fade-in-left"><i class="fas fa-map-signs"></i> Профессиональные <span>горизонты</span></h2>
+
+            <div class="professions-grid" id="professionsGrid"></div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="contacts-container">
+            <div class="contacts-header">
+                <div class="contacts-tag fade-in"><i class="fas fa-star"></i> Контакты <i class="fas fa-star"></i></div>
+                <h2 class="fade-in-left"><i class="fas fa-phone-alt"></i> Оставайтесь <span>на связи</span></h2>
+            </div>
+            <div class="contacts-grid">
+                <div class="contact-card fade-in delay-1">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3><i class="fas fa-location-dot"></i> Адрес</h3>
+                    <p>ул. Ленина, 45, Тольятти</p>
+                    <p class="contact-light">территория ТСПК</p>
+                </div>
+                <div class="contact-card fade-in delay-2">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3><i class="fas fa-at"></i> Email</h3>
+                    <p>fest@tspk.ru</p>
+                </div>
+                <div class="contact-card fade-in delay-3">
+                    <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3><i class="fas fa-phone"></i> Телефон</h3>
+                    <p>+7 (8482) 33-44-55</p>
+                </div>
+                <div class="contact-card fade-in delay-4">
+                    <div class="contact-icon"><i class="fas fa-user"></i></div>
+                    <h3><i class="fas fa-user-tie"></i> Секретарь</h3>
+                    <p>Леночка</p>
+                    <button class="contact-btn"><i class="fas fa-paper-plane"></i> Задать вопрос</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer fade-in">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="img/logo.png" alt="ТСПК" class="footer-logo-image">
+                <div class="footer-info">
+                    <h3>ТСПК<i class="fas fa-star"></i></h3>
+                    <p>фестиваль ТСПК</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="footer-link"><i class="fas fa-shield-alt"></i> Политика</a>
+                <span class="copyright"><i class="fas fa-copyright"></i> 2026 ТСПК</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const professionsData = [
+            {
+                id: 'isip',
+                number: '01',
+                title: 'ИСиП',
+                icon: 'fa-code',
+                subtitle: 'Информационные системы',
+                image: 'isip',
+                description: 'Разработка приложений, базы данных, веб-интерфейсы',
+                features: [
+                    'Изучишь языки программирования',
+                    'Научишься работать с базами данных',
+                    'Создашь свой первый сайт'
+                ]
+            },
+            {
+                id: 'nk',
+                number: '02',
+                title: 'НК',
+                icon: 'fa-chalkboard-teacher',
+                subtitle: 'Начальные классы',
+                image: 'nk',
+                description: 'Уроки, работа с детьми, игровые методики',
+                features: [
+                    'Проведешь фрагмент урока',
+                    'Узнаешь игровые методики',
+                    'Поработаешь с детьми'
+                ]
+            },
+            {
+                id: 'pdo',
+                number: '03',
+                title: 'ПДО',
+                icon: 'fa-paint-brush',
+                subtitle: 'Доп. образование',
+                image: 'pdo',
+                description: 'Кружки, секции, творческие мастер-классы',
+                features: [
+                    'Организуешь мастер-класс',
+                    'Проведешь занятие в кружке',
+                    'Узнаешь основы педагогики'
+                ]
+            },
+            {
+                id: 'ks',
+                number: '04',
+                title: 'КС',
+                icon: 'fa-microchip',
+                subtitle: 'Компьютерные системы',
+                image: 'ks',
+                description: 'Сборка ПК, диагностика, администрирование',
+                features: [
+                    'Соберешь компьютер',
+                    'Научишься диагностике',
+                    'Настроишь ПО'
+                ]
+            },
+            {
+                id: 'dosh',
+                number: '05',
+                title: 'Дошкольное',
+                icon: 'fa-child',
+                subtitle: 'Дошкольное образование',
+                image: 'dosh',
+                description: 'Воспитание, развивающие игры, работа с малышами',
+                features: [
+                    'Проведешь развивающую игру',
+                    'Узнаешь основы воспитания',
+                    'Поработаешь с малышами'
+                ]
+            },
+            {
+                id: 'fizk',
+                number: '06',
+                title: 'Физкультура',
+                icon: 'fa-running',
+                subtitle: 'Физическая культура',
+                image: 'fizk',
+                description: 'Разминки, игры, методика спортивного воспитания',
+                features: [
+                    'Проведешь разминку',
+                    'Организуешь подвижную игру',
+                    'Узнаешь методику тренировок'
+                ]
+            },
+            {
+                id: 'afk',
+                number: '07',
+                title: 'АФК',
+                icon: 'fa-heartbeat',
+                subtitle: 'Адаптивная физкультура',
+                image: 'afk',
+                description: 'Методики для детей с ОВЗ, ЛФК, коррекция',
+                features: [
+                    'Узнаешь методики ЛФК',
+                    'Проведешь коррекционное занятие',
+                    'Поработаешь с разными нозологиями'
+                ]
+            },
+            {
+                id: 'operator',
+                number: '08',
+                title: 'Оператор ИС',
+                icon: 'fa-database',
+                subtitle: 'Информационные системы',
+                image: 'operator',
+                description: 'Ввод данных, документы, информационные системы',
+                features: [
+                    'Научишься вводу данных',
+                    'Узнаешь документооборот',
+                    'Поработаешь с базами данных'
+                ]
+            }
+        ];
+
+        function createCards() {
+            const grid = document.getElementById('professionsGrid');
+            
+            professionsData.forEach(prof => {
+                const featuresList = prof.features.map(f => 
+                    `<li><i class="fas fa-check-circle"></i> ${f}</li>`
+                ).join('');
+
+                const card = document.createElement('div');
+                card.className = 'prof-card';
+                card.id = `card-${prof.id}`;
+                card.setAttribute('onclick', `toggleDetails('${prof.id}')`);
+                card.innerHTML = `
+                    <div class="card-image ${prof.image}"><span class="card-number">${prof.number}</span></div>
+                    <div class="card-body">
+                        <h3 class="card-title"><i class="fas ${prof.icon}"></i> ${prof.title}</h3>
+                        <div class="card-subtitle">${prof.subtitle}</div>
+                        
+                        <div class="card-details" id="details-${prof.id}">
+                            <p class="details-text">${prof.description}</p>
+                            <ul class="details-list">
+                                ${featuresList}
+                            </ul>
+                            <button class="details-btn" onclick="event.stopPropagation(); hideDetails('${prof.id}')">
+                                <i class="fas fa-arrow-left"></i> Вернуться
+                            </button>
+                        </div>
+                        
+                        <button class="card-btn show-details-btn" onclick="event.stopPropagation(); showDetails('${prof.id}')">
+                            <i class="fas fa-info-circle"></i> Подробнее
+                        </button>
+                    </div>
+                `;
+                
+                grid.appendChild(card);
+            });
+        }
+
+        window.showDetails = function(id) {
+            event.stopPropagation();
+            hideAllDetails();
+            
+            const details = document.getElementById('details-' + id);
+            const card = document.getElementById('card-' + id);
+            const showBtn = card.querySelector('.show-details-btn');
+            const grid = document.getElementById('professionsGrid');
+            
+            if (details) {
+                details.classList.add('active');
+                showBtn.style.display = 'none';
+                card.classList.add('active');
+                grid.classList.add('has-active');
+            }
+        }
+
+        window.hideDetails = function(id) {
+            event.stopPropagation();
+            const details = document.getElementById('details-' + id);
+            const card = document.getElementById('card-' + id);
+            const showBtn = card.querySelector('.show-details-btn');
+            const grid = document.getElementById('professionsGrid');
+            
+            if (details) {
+                details.classList.remove('active');
+                showBtn.style.display = 'flex';
+                card.classList.remove('active');
+                grid.classList.remove('has-active');
+            }
+        }
+
+        window.toggleDetails = function(id) {
+            const details = document.getElementById('details-' + id);
+            if (details.classList.contains('active')) {
+                hideDetails(id);
+            } else {
+                showDetails(id);
+            }
+        }
+
+        function hideAllDetails() {
+            const allDetails = document.querySelectorAll('.card-details');
+            const allCards = document.querySelectorAll('.prof-card');
+            const allShowBtns = document.querySelectorAll('.show-details-btn');
+            const grid = document.getElementById('professionsGrid');
+            
+            allDetails.forEach(detail => {
+                detail.classList.remove('active');
+            });
+            
+            allShowBtns.forEach(btn => {
+                btn.style.display = 'flex';
+            });
+            
+            allCards.forEach(card => {
+                card.classList.remove('active');
+            });
+            
+            if (grid) {
+                grid.classList.remove('has-active');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            createCards();
+            
+            document.addEventListener('click', function(event) {
+                if (!event.target.closest('.prof-card')) {
+                    hideAllDetails();
+                }
+            });
+
+            document.querySelectorAll('.contact-btn').forEach(btn => {
+                btn.addEventListener('click', () => alert('Форма обратной связи'));
+            });
+        });
+
+        const fadeElements = document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right, .scale-in');
+        
+        function checkFade() {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementTop < windowHeight - 100) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+        
+        window.addEventListener('load', checkFade);
+        window.addEventListener('scroll', checkFade);
+    </script>
+</body>
+</html>
